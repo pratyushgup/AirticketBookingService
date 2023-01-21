@@ -41,4 +41,5 @@ module.exports = {
     await queryInterface.removeColumn('Bookings','noOfSeats');
     await queryInterface.removeColumn('Bookings','totalCost');
   }
+  // when we will undo the migration it will revert the changes
 };
